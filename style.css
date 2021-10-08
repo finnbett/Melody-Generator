@@ -4,3 +4,38 @@
   box-sizing: border-box;
   text-align: center;
 }
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1em 0 1em 0;
+  border-bottom: black solid 3px;
+  border-top: solid black 3px;
+}
+p {
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+button {
+  width: 4.5em;
+  border: none;
+  background-color: rgb(33, 33, 104);
+  color: white;
+}
+button:hover {
+  background-color: cadetblue;
+}
+
+.break {
+  flex-basis: 30%;
+  height: auto;
+  width: 4.5em;
+  margin-top: 1.4em;
+}
