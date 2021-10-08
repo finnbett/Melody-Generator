@@ -77,7 +77,7 @@ const d = document.getElementById("d")
 
 const db = document.getElementById("db")
     let dbAudio = new Audio();
-    dbAudio.src = "notes/db.mp3"
+    dbAudio.src = "notes/Db.mp3"
         const notesDb = ["db","eb","f","gb","ab","bb","c","db"]
         const randomNoteDb = notesDb[Math.floor(Math.random() * notesDb.length)]
         const randomNoteDb1 = notesDb[Math.floor(Math.random() * notesDb.length)]
@@ -141,7 +141,7 @@ const g = document.getElementById("g")
 
 const gb = document.getElementById("gb")
     let gbAudio = new Audio();
-    gbAudio.src = "notes/gb.mp3"
+    gbAudio.src = "notes/Gb.mp3"
     const notesGb = ["gb","ab","bb","b","db","eb","f"]
     const randomNoteGb = notesGb[Math.floor(Math.random() * notesGb.length)]
     const randomNoteGb1 = notesGb[Math.floor(Math.random() * notesGb.length)]
