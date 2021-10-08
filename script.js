@@ -241,6 +241,10 @@ gb.addEventListener("click", function(){
     
 });
 
+function refresh(){
+    window.location.reload()
+}
+
 //Create groups of notes that correspond to each key sig.
 //melody notes should be random within the signature.
 //timeout should be random but correspond to only half notes, 8th notes or 4 notes
